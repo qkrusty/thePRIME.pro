@@ -46,11 +46,11 @@ window.PRIME_I18N = {
     'loader': 'Loading',
 
     // hero
-    'hero.kicker': 'Digital marketing · online identity',
-    'hero.l1': 'I give projects',
-    'hero.l2': 'an online life',
-    'hero.l3': 'and their own face.',
-    'hero.lead': 'I breathe an <strong>online identity</strong> into your project — unique and carrying your vision: Meta campaigns, graphics, web, social media and ticketing. My specialty is <strong>event marketing</strong>.',
+    'hero.kicker': 'Digital marketing',
+    'hero.l1': 'ONLINE',
+    'hero.l2': 'IDENTITY',
+    'hero.l3': 'for your project',
+    'hero.lead': 'Unique, functional and yours in every detail.',
     'hero.cta': 'Top projects',
     'cursor.copy': 'Copy',
     'cursor.open': 'Open site',

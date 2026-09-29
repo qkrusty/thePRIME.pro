@@ -1352,3 +1352,6 @@ a.client:hover img, a.client:focus-visible img { filter: none; opacity: 1; trans
   .clients__track { animation: none; flex-wrap: wrap; justify-content: center; width: auto; }
   .wall__plane, .wall__item { transform: none !important; }
 }
+
+/* hero title: sub line */
+.hero__title .hero__title-sub { font-size: .4em; letter-spacing: -.01em; margin-top: .25em; color: var(--text-2); }
