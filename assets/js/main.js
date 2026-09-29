@@ -246,7 +246,7 @@
     function layout() {
       const r = canvas.getBoundingClientRect();
       W = r.width; H = r.height;
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      dpr = Math.min(window.devicePixelRatio || 1, small ? 1.5 : 2);
       canvas.width = Math.round(W * dpr);
       canvas.height = Math.round(H * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -1144,7 +1144,7 @@
     measure();
     addEventListener('resize', measure);
 
-    const SOLD_AT = .86;
+    const SOLD_AT = .8;
     let lastPct = -1, lastIdx = -1, lastSold = null;
     const update = () => {
       const vh = innerHeight;
@@ -1175,14 +1175,6 @@
     addEventListener('scroll', update, { passive: true });
     addEventListener('resize', update);
     update();
-  }
-
-  /* ---------- pricing CTA pre-selects "website" in the brief ---------- */
-  function pricing() {
-    $$('[data-plan]').forEach(a => a.addEventListener('click', () => {
-      const cb = $('#brief input[value="web"]');
-      if (cb) cb.checked = true;
-    }));
   }
 
   /* ==========================================================================
@@ -1379,7 +1371,7 @@
 
   /* ---------- boot ---------- */
   const boot = () => {
-    [i18nInit, intro, heroParticles, cursor, magnetic, scrambleLinks, reveals, stats, nav, clients, refs, wall, events, tiles, timeline, pricing, terminal, contact, lightbox, ambientGlitch]
+    [i18nInit, intro, heroParticles, cursor, magnetic, scrambleLinks, reveals, stats, nav, clients, refs, wall, events, tiles, timeline, terminal, contact, lightbox, ambientGlitch]
       .forEach(fn => {
         try { fn(); } catch (err) { console.error('[prime]', fn.name, err); }
       });

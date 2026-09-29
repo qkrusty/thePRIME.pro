@@ -2,7 +2,7 @@
    `sk` / `en` also hold the strings that only exist in JavaScript. */
 window.PRIME_I18N = {
   sk: {
-    'meta.title': 'PRIME Marketing — weby, Meta kampane a event marketing | theprime.pro',
+    'meta.title': 'PRIME Marketing — online identita a digital marketing pre váš projekt | theprime.pro',
     'lang.switch': 'Switch to English',
     'toast.copied': 'Skopírované: ',
     'toast.opening': 'Otváram váš e-mailový program…',
@@ -18,7 +18,7 @@ window.PRIME_I18N = {
     locale: 'sk-SK'
   },
   en: {
-    'meta.title': 'PRIME Marketing — websites, Meta ads & event marketing | theprime.pro',
+    'meta.title': 'PRIME Marketing — online identity & digital marketing for your project | theprime.pro',
     'lang.switch': 'Prepnúť do slovenčiny',
     'toast.copied': 'Copied: ',
     'toast.opening': 'Opening your email app…',
@@ -38,7 +38,6 @@ window.PRIME_I18N = {
     'nav.refs': 'Work',
     'nav.events': 'Events',
     'nav.services': 'Services',
-    'nav.pricing': 'Pricing',
     'nav.about': 'About',
     'nav.contact': 'Contact',
     'nav.work': 'Websites',
@@ -47,11 +46,11 @@ window.PRIME_I18N = {
     'loader': 'Loading',
 
     // hero
-    'hero.kicker': 'Digital / online marketing',
-    'hero.l1': 'Websites that',
-    'hero.l2': 'bring projects',
-    'hero.l3': 'to life.',
-    'hero.lead': 'Websites and online campaigns, specialised in <strong>event marketing</strong>.',
+    'hero.kicker': 'Digital marketing',
+    'hero.l1': 'ONLINE',
+    'hero.l2': 'IDENTITY',
+    'hero.l3': 'for your project',
+    'hero.lead': 'Unique, functional and yours in every detail.',
     'hero.cta': 'Top projects',
     'cursor.copy': 'Copy',
     'cursor.open': 'Open site',
@@ -61,7 +60,7 @@ window.PRIME_I18N = {
     'stat.clients': 'clients',
     'stat.ppc.pre': '€',
     'stat.ppc.suf': '+',
-    'stat.ppc': 'managed in PPC — mostly Meta Ads',
+    'stat.ppc': 'spent on Meta campaigns',
     'stat.campaigns': 'online campaigns launched',
     'stat.event': 'marketing is my specialty',
 
@@ -142,7 +141,7 @@ window.PRIME_I18N = {
 
     // services
     'sv.label': 'What I do',
-    'sv.title': 'From website to <em>sold-out</em> event.',
+    'sv.title': 'From ads to a <em>sold-out</em> event.',
     'sv1.t': 'Websites',
     'sv1.d': 'Fast, modern, custom websites — from landing pages to multi-page sites.',
     'sv1.c1': 'Custom design',
@@ -159,30 +158,10 @@ window.PRIME_I18N = {
     'sv5.t': 'Tracking & optimisation',
     'sv5.d': 'Pixel, conversions, reporting. Decisions driven by data.',
 
-    // pricing
-    'price.label': 'Pricing',
-    'price.title': 'A website in <em>48 hours.</em>',
-    'price.lead': 'One package. Everything essential included.',
-    'price.tag': 'Fast and optimised',
-    'price.from': 'from',
-    'price.value': '€499',
-    'price.f1': 'CDN — no database, no hosting',
-    'price.f2': 'Metrics & analytics included',
-    'price.f3': 'Full delivery in 48 hours',
-    'price.f4': 'Multi-page',
-    'price.f5': 'Multi-language',
-    'price.f6': 'AI chat support',
-    'price.f7': 'Future-proof',
-    'price.f8': 'Secure',
-    'price.f9': 'Bot defense protocols',
-    'price.f10': 'Lock Down Mode',
-    'price.cta': 'Get your website',
-    'price.note': 'Campaigns and event marketing are priced per project.',
-
     // about
     'about.label': 'About',
     'about.title': 'Marketing that <em>lives</em> on data and emotion.',
-    'about.p': '8 years in online marketing, 50+ clients, 2,000+ campaigns launched and over €1,000,000 managed in PPC. I build websites that bring projects to life — and campaigns for events from Bratislava to Gdańsk.',
+    'about.p': '8 years in online marketing, 50+ clients, 2,000+ campaigns launched and over €1,000,000 spent on Meta campaigns. I do digital marketing for events from Bratislava to Gdańsk: campaigns, graphics, websites, social media and ticketing.',
     'about.s1': 'Analysis',
     'about.s1d': 'Goals, audience, competition',
     'about.s2': 'Strategy',
@@ -195,9 +174,9 @@ window.PRIME_I18N = {
     'term.o1': '<span class="c-val">8 years</span> in online marketing',
     'term.o2': '<span class="c-val">50+</span> clients',
     'term.o3': '<span class="c-val">2,000+</span> campaigns launched',
-    'term.o4': '<span class="c-val">€1,000,000+</span> in PPC <span class="c-dim">(mostly Meta)</span>',
+    'term.o4': '<span class="c-val">€1,000,000+</span> spent on Meta campaigns',
     'term.cmd3': 'echo $SPECIALTY',
-    'term.o5': 'event marketing · web design',
+    'term.o5': 'event marketing · Meta campaigns · graphics · web · ticketing',
     'term.cmd4': 'contact',
 
     // contact
@@ -207,7 +186,7 @@ window.PRIME_I18N = {
     'contact.copy': 'Copy email',
     'brief.legend': 'How can I help?',
     'brief.n1': 'Website',
-    'brief.n2': 'Meta / PPC campaigns',
+    'brief.n2': 'Meta campaigns',
     'brief.n3': 'Event marketing',
     'brief.n4': 'Online presence',
     'brief.n5': 'Something else',
