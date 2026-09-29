@@ -2,7 +2,7 @@
    `sk` / `en` also hold the strings that only exist in JavaScript. */
 window.PRIME_I18N = {
   sk: {
-    'meta.title': 'PRIME Marketing — digital marketing, Meta kampane a event marketing | theprime.pro',
+    'meta.title': 'PRIME Marketing — online identita a digital marketing pre váš projekt | theprime.pro',
     'lang.switch': 'Switch to English',
     'toast.copied': 'Skopírované: ',
     'toast.opening': 'Otváram váš e-mailový program…',
@@ -18,7 +18,7 @@ window.PRIME_I18N = {
     locale: 'sk-SK'
   },
   en: {
-    'meta.title': 'PRIME Marketing — digital marketing, Meta ads & event marketing | theprime.pro',
+    'meta.title': 'PRIME Marketing — online identity & digital marketing for your project | theprime.pro',
     'lang.switch': 'Prepnúť do slovenčiny',
     'toast.copied': 'Copied: ',
     'toast.opening': 'Opening your email app…',
@@ -46,11 +46,11 @@ window.PRIME_I18N = {
     'loader': 'Loading',
 
     // hero
-    'hero.kicker': 'Digital / online marketing',
-    'hero.l1': 'Marketing that',
-    'hero.l2': 'sells out',
-    'hero.l3': 'events.',
-    'hero.lead': 'Digital marketing specialised in <strong>event marketing</strong>: Meta campaigns, high-impact graphics, websites, social media and ticketing.',
+    'hero.kicker': 'Digital marketing · online identity',
+    'hero.l1': 'I give projects',
+    'hero.l2': 'an online life',
+    'hero.l3': 'and their own face.',
+    'hero.lead': 'I breathe an <strong>online identity</strong> into your project — unique and carrying your vision: Meta campaigns, graphics, web, social media and ticketing. My specialty is <strong>event marketing</strong>.',
     'hero.cta': 'Top projects',
     'cursor.copy': 'Copy',
     'cursor.open': 'Open site',
